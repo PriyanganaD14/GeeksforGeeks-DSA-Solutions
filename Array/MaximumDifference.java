@@ -30,7 +30,7 @@ public class MaximumDifference {
         int ans=arr[1]-arr[0];
 
         for(int i=0;i<n;i++){
-            for(int j=i;j<n;j++){
+            for(int j=i+1;j<n;j++){
                 int diff=arr[j]-arr[i];
                 if(diff>ans){
                     ans=diff;
