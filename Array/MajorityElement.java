@@ -22,7 +22,7 @@ public class MajorityElement {
 
         int count = 1, res = 0;
 
-        // Find a candidate who can we majority 
+        // Find a candidate who can be majority 
         for (int i = 1; i < n; i++) {
 
             if (arr[res] == arr[i]) {
